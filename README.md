@@ -29,7 +29,7 @@ The application showaces the following features:
 ## Tech Stack (Dependencies)
 
 ### 1. Backend Dependencies
-Our tech stack will include the following:
+The tech stack includes the following:
  * **virtualenv** as a tool to create isolated Python environments
  * **SQLAlchemy ORM** to be our ORM library of choice
  * **PostgreSQL** as our database of choice
@@ -92,13 +92,18 @@ If you do not have `pip` installed, you can download it here: [pip](https://pip.
 
 ### Setup
 
-1. **Clone the source locally:
+1. **Create an empty database (fyyurDB) in postgres locally:
+```sh
+$ createdb -U postgres fyyurDB
+```
+
+2. **Clone the source locally:
 ```sh
 $ git clone https://github.com/thepembeweb/fyyur.git
 $ cd fyyur
 ```
 
-2. **Initialize and activate a virtualenv using:**
+3. **Initialize and activate a virtualenv using:**
 ```
 python -m virtualenv env
 source env/bin/activate
@@ -108,13 +113,13 @@ source env/bin/activate
 source env/Scripts/activate
 ```
 
-3. **Install project dependencies:
+4. **Install project dependencies:
 
 ```sh
 $ pip install -r requirements.txt
 ```
 
-4. **Run the development server:**
+5. **Run the development server:**
 ```
 export FLASK_APP=app.py
 export FLASK_ENV=development # enables debug mode
