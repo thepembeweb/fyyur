@@ -134,7 +134,7 @@ Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or
 
 ## Authors
 
-* **[Pemberai Sweto](https://github.com/thepembeweb)** - *Initial work* - [Dog Meme Generator](https://github.com/thepembeweb/fyyur)
+* **[Pemberai Sweto](https://github.com/thepembeweb)** - *Initial work* - [Fyyur: Artist Booking Site](https://github.com/thepembeweb/fyyur)
 
 ## License
 
