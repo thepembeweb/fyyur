@@ -14,7 +14,7 @@
 
 ## Overview
 
-The application showaces the following features:
+The application showcases the following features:
 
 * creating new venues, artists, and creating new shows.
 * searching for venues and artists.
